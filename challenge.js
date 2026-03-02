@@ -27,20 +27,5 @@ async function getDataPokemon () {
 }
 getDataPokemon()
 
-// fetch(url)
-//     .then(res => res.json())
-//     .then(data => {
-//         const janjiDetail = data.results.map(p => 
-//             fetch(p.url).then(res => res.json())
-//         );
-//         return Promise.all(janjiDetail);
-//     })
-//     .then(details => {
-//         const hasil = details.map(d => ({
-//             nama: d.name,
-//             abilities: d.abilities.map(a => a.ability.name)
-//         }));
-//         console.log(hasil);
-//     })
-//     .catch(err => console.log(err));
+
 
